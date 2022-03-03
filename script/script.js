@@ -1,5 +1,5 @@
 let nombrePlanetas = Array ('Tierra','Marte','Jupiter')
-let distancia = [6,3,'67']
+let distancia = [5,3,'67']
 const tamaño = []
 
 console.log(nombrePlanetas)
@@ -38,4 +38,21 @@ for (const key in nombrePlanetas){
 
 for (const planeta of nombrePlanetas){
     console.log(planeta)
+}
+
+//operador de igualdad
+for (const key in distancia){
+    if (distancia[key] == '5'){
+        console.log('Se encontró la distancia')
+    }else{
+        console.log('No se encontró la distancia')
+    }
+}
+
+for (const key in distancia){
+    if (distancia[key] === '5'){
+        console-log('Se encontró la distancia')
+    }else{
+        console.log('No se encontró la distancia')
+    }
 }
